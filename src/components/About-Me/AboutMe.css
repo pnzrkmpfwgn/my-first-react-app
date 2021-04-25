@@ -1,0 +1,28 @@
+.BodyAbout{
+    background: url('../../Assests/Main-Page/background-2.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    height:1200px;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.articleAbout{
+    color:white;
+    margin-left: 50px;
+    margin:0 20px;
+}
+.articleAbout h2{
+    margin:6px;
+    font-size:36px;
+    font-family: "Oswald","sans-serif";
+    color:rgb(15, 158, 214);
+}
+.articleAbout p{
+    margin:6px;
+    color:rgb(9, 140, 192);
+    font-size:24px;
+    font-family: "Oswald","sans-serif";
+}

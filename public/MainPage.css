@@ -1,0 +1,103 @@
+.Body{
+    background: url('../../Assests/Main-Page/background.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    height:1050px;       
+}
+.Header{
+
+    margin-top:100px;
+    
+}
+.Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    font-size:28px;
+    font-family: "Oswald","sans-serif";
+    margin: 5px 0;
+    color:rgb(11, 180, 247);
+    transition: color 0.3s ease-in-out;
+}
+.item:hover{
+    font-size:30px;
+    color: rgb(47, 115, 172);
+    cursor: pointer;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.article{
+    flex-direction: column;
+    color:white;
+    display: inline-flex;
+    align-self: center;
+    margin-left: 50px;
+    position: absolute;
+    top:700px;
+    margin:0 20px;
+}
+.article h1{
+    margin:6px;
+    font-size:36px;
+    font-family: "Oswald","sans-serif";
+    color:rgb(5, 128, 177);
+    
+}
+.article p{
+    margin:6px;
+    color:rgb(137, 207, 235);
+    font-size:24px;
+    line-height:3;
+    font-family: "Oswald","sans-serif";
+}
+.link{
+    font-size:28px;
+    font-family: "Oswald","sans-serif";
+    margin: 5px 0;
+    color:rgb(11, 180, 247);
+    transition: all 0.3s ease-in-out;
+}
+.link:hover{
+    color: rgb(47, 115, 172);
+    cursor: pointer;
+    font-size:30px;
+}
+
+@media only screen and (min-width:769px) and (max-width:1440px) {
+    .Body{
+        height:1110px;
+    }
+    .Logo img{
+        width:20%;
+        height:20%;
+    }
+    .Header{
+        margin-top:0;
+    }
+    .article h1 {
+        font-size:40px;
+        margin-bottom: 20px;
+    }
+    .article p{
+        font-size:30px;
+        margin-bottom: 20px;
+    }
+    .item{
+        font-size:32px;
+        margin-top:25px;
+    }
+    .item:hover{
+        font-size:33.33px;
+    }
+    .link:hover{
+        color: rgb(47, 115, 172);
+        cursor: pointer;
+        font-size:40px;
+    }
+}
